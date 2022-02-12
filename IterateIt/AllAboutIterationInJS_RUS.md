@@ -1,3 +1,4 @@
+-=Beware! Raw version document!=-
 
 Начну с громких и провокационных заявлений =)
 Итерирование + условия - это и есть программирование.
@@ -8,7 +9,7 @@
 Для начала - коротко повторим содержание документации MDN =)
 Нам оттуда понадобится чуть менее, чем всё.
 
-###Циклы: 
+### Циклы: 
 - [for](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Loops_and_iteration#%D1%86%D0%B8%D0%BA%D0%BB_for) 
 `(let i = 0; i < 10 ; i++) { 😵‍💫 }` - ну, тут всё понятно 
 - [do](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Loops_and_iteration#%D1%86%D0%B8%D0%BA%D0%BB_do...while)
@@ -19,13 +20,13 @@
 в сочетани с  [break label](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Loops_and_iteration#break)
 и [continue label](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Loops_and_iteration#continue)
 
-###Циклы-итераторы коллекций
+### Циклы-итераторы коллекций
 - [for](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Loops_and_iteration#for...in)
 `(variable in object) {...}` - в `variable` перебирает имена ключей объекта. Не рекомендован для массивов.
 - [for](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Loops_and_iteration#for...of)
 `(variable in object) {...}` - перебирает значения при ключе. Рекомендован для любых коллекций.
 
-###Коллекции
+### Коллекции
 - `fruits = ['Яблоко', 'Банан']` - старый добрый [массив](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array)
 плюс дюжина его братьев для 8, 16 и 32х - битных значений.
 - `car = {brand: 'Lada', year: 1998 }` - объект - неупорядоченная коллекция ключ:значение
@@ -41,7 +42,7 @@
 Перебор массивов.
 Перебор объектов.
 
-##Примеры
+## Примеры
 <details>
 <summary style="font-size: large; font-weight: bold">
 <a href="https://frontend-stuff.com/blog/how-to-loop-through-object-in-javascript/">

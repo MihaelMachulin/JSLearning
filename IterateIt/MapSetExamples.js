@@ -91,8 +91,21 @@ function uniqValues(array) { return Array.from(new Set(array)) }
   cacheUser(alex)
   lena = null
 
-  console.log(cache.has(lena))
-  console.log(cache.has(alex))
+  //console.log(cache.has(lena))
+  //console.log(cache.has(alex))
 }
 
 // WeakSet - как Set - только Weak - как WeakMap
+
+{
+  const users = [
+    {name: 'Elena'},
+    {name: 'Alex'},
+    {name: 'Irina'}
+  ]
+
+  const visits = new WeakSet(users)
+  visits.add(users[0], 'Designer')
+  console.log(visits.has(users[2]))
+
+}

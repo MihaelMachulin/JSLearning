@@ -32,7 +32,7 @@
 - `car = {brand: 'Lada', year: 1998 }` - объект - неупорядоченная коллекция ключ:значение
 - `map1 = new Map()` - упорядоченная коллекция ключ:значение [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
 - `mySet = new Set()` - упорядоченная коллекция ключ:уникальное значение [set](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Set)
-- WeakMap и WeakSet - коллекции "с недержанием" - для оптимизации памяти. 
+- WeakMap и WeakSet - реально удаляют удалённое из себя - экономят память. 
 [Это видео](https://www.youtube.com/watch?v=mbcP3Oc0PjU) - 
 неплохо раскрывает суть вопроса.
 
